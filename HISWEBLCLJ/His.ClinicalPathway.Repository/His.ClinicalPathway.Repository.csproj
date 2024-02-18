@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\His.CiteRepository\His.CiteRepository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="His.Core">
+      <HintPath>..\..\dll\His.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="His.DAL">
+      <HintPath>..\..\dll\His.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="His.Entities">
+      <HintPath>..\..\dll\His.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="His.Util">
+      <HintPath>..\..\dll\His.Util.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

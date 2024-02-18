@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "His.ClinicalPathway.Services": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5062;http://localhost:5063"
+    }
+  }
+}
